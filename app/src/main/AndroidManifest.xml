@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mochdira_uts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_pervii"></activity>
+        <activity android:name=".activity_pervi_menghitung" />
+        <activity android:name=".activity_pervi_listview_detail" />
+        <activity android:name=".activity_pervi_listview_cell" />
+        <activity android:name=".activity_pervi_listview" />
+        <activity android:name=".activity_pervi_alert" />
+        <activity android:name=".activity_pervi" />
+        <activity android:name=".activity_perv_detail" />
+        <activity android:name=".activity_perv" />
+        <activity android:name=".activity_periv" />
+        <activity android:name=".activity_periii_login" />
+        <activity android:name=".activity_periii" />
+        <activity android:name=".activity_perii" />
+        <activity android:name=".activity_peri" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
